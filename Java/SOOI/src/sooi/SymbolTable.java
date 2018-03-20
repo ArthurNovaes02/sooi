@@ -43,7 +43,7 @@ class SymbolTable {
         st.put("+", TokenType.ADD);
         st.put("=", TokenType.SUB);
         st.put("/", TokenType.DIV);
-        st.put("*", TokenType.MUL);
+        st.put("*", TokenType.MULT);
         st.put("%", TokenType.MOD);
     }
 

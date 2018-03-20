@@ -94,7 +94,7 @@ public class LexicalAnalysis implements AutoCloseable {
 
                     // pontuação
                     else if(c == '*'){
-                        lex.type = TokenType.MUL;
+                        lex.type = TokenType.MULT;
                     }
                     else if (c == '('){
                         lex.type = TokenType.OPEN_PAR;
