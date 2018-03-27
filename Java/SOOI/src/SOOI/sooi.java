@@ -11,7 +11,7 @@ public class sooi {
 
     public static void main(String[] args) {
         if (args.length != 1) {
-            System.out.println("Usage: java sooi [SmallOO File]");
+            System.out.println("Usage: java sooi [SmallO File]");
             return;
         }
 
@@ -20,7 +20,8 @@ public class sooi {
 
             // O código a seguir é dado para testar o interpretador.
             // TODO: descomentar depois que o analisador léxico estiver OK.
-            
+            System.out.println("passou");
+
             Command c = s.start();
             c.execute();
 
